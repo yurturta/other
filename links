@@ -1,3 +1,9 @@
+Jenkins + Groovy
+https://build.ssc-assurance.is.echonet/jenkins/view/Test%20Automation/job/test-automation-deployment/pipeline-syntax/globals#initUtils
+https://blog.mrhaki.com/2017/02/groovy-goodness-using-call-operator.html
+https://stackoverflow.com/questions/70468415/use-a-groovy-script-with-a-call-method-defined-in-another-script-file
+https://objectpartners.com/2018/11/07/equals-is-compareto-and-the-groovy-identity-operator/
+
 https://www.howtogeek.com/244678/you-dont-need-a-product-key-to-install-and-use-windows-10/
 https://www.forbes.com/sites/bradmoon/2016/08/25/how-to-connect-a-turntable-to-your-wireless-speaker/?sh=72a02d4010e9
 https://victrola.com/blogs/articles/how-to-hook-up-a-turntable-to-speakers
@@ -22,11 +28,4 @@ https://www.devdungeon.com/content/how-create-secure-linux-system-user
 https://unix.stackexchange.com/questions/364517/difference-between-chmod-vs-acl
 https://www.cyberciti.biz/faq/howto-change-rename-user-name-id/
 https://www.thegeekdiary.com/understanding-etclogin-defs-file/
-
-
-
-https://blog.mrhaki.com/2017/02/groovy-goodness-using-call-operator.html
-https://stackoverflow.com/questions/70468415/use-a-groovy-script-with-a-call-method-defined-in-another-script-file
-https://objectpartners.com/2018/11/07/equals-is-compareto-and-the-groovy-identity-operator/
-
 https://www.redhat.com/sysadmin/top-articles-sysadmins-2022
