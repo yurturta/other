@@ -9,3 +9,18 @@ type=CRYPTO_KEY_USER msg=audit(1672935698.639:157310): pid=2393635 uid=0 auid=50
 
 
 Jan 06 10:07:58 prgvl71cca4t.cz.xcd.net.intra systemd[2471622]: cop-idp-necst.service: Failed at step EXEC spawning /apps/cop-idp-necst/tomcat-home/bin/startup.sh: Permission denied
+
+
+time->Sun Jan  8 23:13:54 2023
+type=AVC msg=audit(1673216034.778:173340): avc:  denied  { read } for  pid=1 comm="systemd" name="elasticsearch.pid" dev="dm-0" ino=880375 scontext=system_u:system_r:init_t:s0 tcontext=system_u:object_r:default_t:s0 tclass=file permissive=0
+----
+time->Sun Jan  8 23:13:54 2023
+type=AVC msg=audit(1673216034.778:173341): avc:  denied  { read } for  pid=1 comm="systemd" name="elasticsearch.pid" dev="dm-0" ino=880375 scontext=system_u:system_r:init_t:s0 tcontext=system_u:object_r:default_t:s0 tclass=file permissive=0
+----
+time->Sun Jan  8 23:13:54 2023
+type=AVC msg=audit(1673216034.778:173342): avc:  denied  { read } for  pid=1 comm="systemd" name="elasticsearch.pid" dev="dm-0" ino=880375 scontext=system_u:system_r:init_t:s0 tcontext=system_u:object_r:default_t:s0 tclass=file permissive=0
+----
+time->Sun Jan  8 23:19:35 2023
+type=PROCTITLE msg=audit(1673216375.884:173380): proctitle="(artup.sh)"
+type=SYSCALL msg=audit(1673216375.884:173380): arch=c000003e syscall=59 success=no exit=-13 a0=5645fb374a90 a1=5645fb4592f0 a2=5645fb3055f0 a3=0 items=0 ppid=1 pid=2689919 auid=4294967295 uid=50018 gid=50018 euid=50018 suid=50018 fsuid=50018 egid=50018 sgid=50018 fsgid=50018 tty=(none) ses=4294967295 comm="(artup.sh)" exe="/usr/lib/systemd/systemd" subj=system_u:system_r:init_t:s0 key=(null)
+type=AVC msg=audit(1673216375.884:173380): avc:  denied  { read } for  pid=2689919 comm="(artup.sh)" name="tomcat-home" dev="dm-0" ino=269181660 scontext=system_u:system_r:init_t:s0 tcontext=unconfined_u:object_r:default_t:s0 tclass=lnk_file permissive=0
