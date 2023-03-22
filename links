@@ -1,6 +1,8 @@
 https://docs.gitlab.com/ee/ci/jobs/
 
-https://teams.microsoft.com/l/meetup-join/19%3ameeting_OGU2NDY5NjEtMzU4ZC00ZjkyLWE3ZmEtMjI0ZmUyNWQxYzZi%40thread.v2/0?context=%7b%22Tid%22%3a%22614f9c25-bffa-42c7-86d8-964101f55fa2%22%2c%22Oid%22%3a%22430f35f3-2681-4809-9d67-65acc3fff6be%22%7d
+
+https://onecop-sandbox-api-assurance.dev.echonet/ifas/api/vi/subscriptions/1 --header 'transactionID: 123' --header 'brokerId: 123' -vvv
+
 
 Gitops
 https://thecodereaper.com/2020/05/31/how-to-reset-master-branch-when-using-azure-devops-and-git/
