@@ -1,3 +1,127 @@
+
+2023-03-22 17:03:54 [http-nio-8080-exec-4] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'v1ApiController'
+2023-03-22 17:03:54 [http-nio-8080-exec-4] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'v1ApiController'
+2023-03-22 17:03:54 [http-nio-8080-exec-4] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.swagger.api.V1ApiController#getSubscription(String, String, String)
+2023-03-22 17:03:54 [http-nio-8080-exec-4] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.swagger.api.V1ApiController#getSubscription(String, String, String)
+2023-03-22 17:03:54 [http-nio-8080-exec-4] TRACE o.s.web.method.HandlerMethod - Arguments: [123, 123, 1]
+2023-03-22 17:03:54 [http-nio-8080-exec-4] TRACE o.s.web.method.HandlerMethod - Arguments: [123, 123, 1]
+2023-03-22 17:03:54 [http-nio-8080-exec-4] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'defaultValidator'
+2023-03-22 17:03:54 [http-nio-8080-exec-4] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'defaultValidator'
+2023-03-22 17:03:54 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json]
+2023-03-22 17:03:54 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json]
+2023-03-22 17:03:54 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+2023-03-22 17:03:54 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+2023-03-22 17:03:54 [http-nio-8080-exec-4] TRACE o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Applying default cacheSeconds=-1
+2023-03-22 17:03:54 [http-nio-8080-exec-4] TRACE o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Applying default cacheSeconds=-1
+2023-03-22 17:03:54 [http-nio-8080-exec-4] TRACE o.s.web.servlet.DispatcherServlet - No view rendering, null ModelAndView returned.
+2023-03-22 17:03:54 [http-nio-8080-exec-4] TRACE o.s.web.servlet.DispatcherServlet - No view rendering, null ModelAndView returned.
+2023-03-22 17:03:54 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK, headers={}
+2023-03-22 17:03:54 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK, headers={}
+2023-03-22 17:03:54 [http-nio-8080-exec-4] TRACE o.s.b.w.s.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@2d2b3da1
+2023-03-22 17:03:54 [http-nio-8080-exec-4] TRACE o.s.b.w.s.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@2d2b3da1
+2023-03-22 17:04:41 [http-nio-8080-exec-5] TRACE o.s.b.w.s.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@2d2b3da1
+2023-03-22 17:04:41 [http-nio-8080-exec-5] TRACE o.s.b.w.s.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@2d2b3da1
+2023-03-22 17:04:41 [http-nio-8080-exec-5] TRACE o.s.web.servlet.DispatcherServlet - GET "/api/v1/subscriptions/1", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2023-03-22 17:04:41 [http-nio-8080-exec-5] TRACE o.s.web.servlet.DispatcherServlet - GET "/api/v1/subscriptions/1", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2023-03-22 17:04:41 [http-nio-8080-exec-5] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'v1ApiController'
+2023-03-22 17:04:41 [http-nio-8080-exec-5] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'v1ApiController'
+2023-03-22 17:04:41 [http-nio-8080-exec-5] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.swagger.api.V1ApiController#getSubscription(String, String, String)
+2023-03-22 17:04:41 [http-nio-8080-exec-5] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.swagger.api.V1ApiController#getSubscription(String, String, String)
+2023-03-22 17:04:41 [http-nio-8080-exec-5] DEBUG o.s.web.method.HandlerMethod - Could not resolve parameter [0] in public org.springframework.http.ResponseEntity<io.swagger.model.SubscriptionResponse> io.swagger.api.V1ApiController.getSubscription(java.lang.String,java.lang.String,java.lang.String): Required request header 'transactionId' for method parameter type String is not present
+2023-03-22 17:04:41 [http-nio-8080-exec-5] DEBUG o.s.web.method.HandlerMethod - Could not resolve parameter [0] in public org.springframework.http.ResponseEntity<io.swagger.model.SubscriptionResponse> io.swagger.api.V1ApiController.getSubscription(java.lang.String,java.lang.String,java.lang.String): Required request header 'transactionId' for method parameter type String is not present
+2023-03-22 17:04:41 [http-nio-8080-exec-5] WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingRequestHeaderException: Required request header 'transactionId' for method parameter type String is not present]
+2023-03-22 17:04:41 [http-nio-8080-exec-5] WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingRequestHeaderException: Required request header 'transactionId' for method parameter type String is not present]
+2023-03-22 17:04:41 [http-nio-8080-exec-5] TRACE o.s.web.servlet.DispatcherServlet - No view rendering, null ModelAndView returned.
+2023-03-22 17:04:41 [http-nio-8080-exec-5] TRACE o.s.web.servlet.DispatcherServlet - No view rendering, null ModelAndView returned.
+2023-03-22 17:04:41 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST, headers={}
+2023-03-22 17:04:41 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST, headers={}
+2023-03-22 17:04:41 [http-nio-8080-exec-5] TRACE o.s.b.w.s.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@2d2b3da1
+2023-03-22 17:04:41 [http-nio-8080-exec-5] TRACE o.s.b.w.s.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@2d2b3da1
+2023-03-22 17:04:41 [http-nio-8080-exec-5] TRACE o.s.b.w.s.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.core.ApplicationHttpRequest@3ebb3104
+2023-03-22 17:04:41 [http-nio-8080-exec-5] TRACE o.s.b.w.s.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.core.ApplicationHttpRequest@3ebb3104
+2023-03-22 17:04:41 [http-nio-8080-exec-5] TRACE o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/api/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2023-03-22 17:04:41 [http-nio-8080-exec-5] TRACE o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/api/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2023-03-22 17:04:41 [http-nio-8080-exec-5] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 2 matching mappings: [{ [/error]}, { [/error], produces [text/html]}]
+2023-03-22 17:04:41 [http-nio-8080-exec-5] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 2 matching mappings: [{ [/error]}, { [/error], produces [text/html]}]
+2023-03-22 17:04:41 [http-nio-8080-exec-5] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'basicErrorController'
+2023-03-22 17:04:41 [http-nio-8080-exec-5] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'basicErrorController'
+2023-03-22 17:04:41 [http-nio-8080-exec-5] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-03-22 17:04:41 [http-nio-8080-exec-5] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-03-22 17:04:41 [http-nio-8080-exec-5] TRACE o.s.web.method.HandlerMethod - Arguments: [org.apache.catalina.core.ApplicationHttpRequest@3ebb3104]
+2023-03-22 17:04:41 [http-nio-8080-exec-5] TRACE o.s.web.method.HandlerMethod - Arguments: [org.apache.catalina.core.ApplicationHttpRequest@3ebb3104]
+2023-03-22 17:04:41 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-22 17:04:41 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-22 17:04:41 [http-nio-8080-exec-5] TRACE o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Wed Mar 22 17:04:41 UTC 2023, status=400, error=Bad Request, path=/api/v1/subscriptions/1}]
+2023-03-22 17:04:41 [http-nio-8080-exec-5] TRACE o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Wed Mar 22 17:04:41 UTC 2023, status=400, error=Bad Request, path=/api/v1/subscriptions/1}]
+2023-03-22 17:04:41 [http-nio-8080-exec-5] TRACE o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Applying default cacheSeconds=-1
+2023-03-22 17:04:41 [http-nio-8080-exec-5] TRACE o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Applying default cacheSeconds=-1
+2023-03-22 17:04:41 [http-nio-8080-exec-5] TRACE o.s.web.servlet.DispatcherServlet - No view rendering, null ModelAndView returned.
+2023-03-22 17:04:41 [http-nio-8080-exec-5] TRACE o.s.web.servlet.DispatcherServlet - No view rendering, null ModelAndView returned.
+2023-03-22 17:04:41 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 400, headers={masked}
+2023-03-22 17:04:41 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 400, headers={masked}
+2023-03-22 17:04:41 [http-nio-8080-exec-5] TRACE o.s.b.w.s.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.core.ApplicationHttpRequest@3ebb3104
+2023-03-22 17:04:41 [http-nio-8080-exec-5] TRACE o.s.b.w.s.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.core.ApplicationHttpRequest@3ebb3104
+2023-03-22 17:05:38 [http-nio-8080-exec-6] TRACE o.s.b.w.s.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@2d2b3da1
+2023-03-22 17:05:38 [http-nio-8080-exec-6] TRACE o.s.b.w.s.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@2d2b3da1
+2023-03-22 17:05:38 [http-nio-8080-exec-6] TRACE o.s.web.servlet.DispatcherServlet - GET "/api/vi/subscriptions/1", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2023-03-22 17:05:38 [http-nio-8080-exec-6] TRACE o.s.web.servlet.DispatcherServlet - GET "/api/vi/subscriptions/1", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2023-03-22 17:05:38 [http-nio-8080-exec-6] TRACE o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]] and 4 interceptors
+2023-03-22 17:05:38 [http-nio-8080-exec-6] TRACE o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]] and 4 interceptors
+2023-03-22 17:05:38 [http-nio-8080-exec-6] DEBUG o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+2023-03-22 17:05:38 [http-nio-8080-exec-6] DEBUG o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+2023-03-22 17:05:38 [http-nio-8080-exec-6] TRACE o.s.web.servlet.DispatcherServlet - No view rendering, null ModelAndView returned.
+2023-03-22 17:05:38 [http-nio-8080-exec-6] TRACE o.s.web.servlet.DispatcherServlet - No view rendering, null ModelAndView returned.
+2023-03-22 17:05:38 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND, headers={masked}
+2023-03-22 17:05:38 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND, headers={masked}
+2023-03-22 17:05:38 [http-nio-8080-exec-6] TRACE o.s.b.w.s.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@2d2b3da1
+2023-03-22 17:05:38 [http-nio-8080-exec-6] TRACE o.s.b.w.s.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@2d2b3da1
+2023-03-22 17:05:38 [http-nio-8080-exec-6] TRACE o.s.b.w.s.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.core.ApplicationHttpRequest@e225b46f
+2023-03-22 17:05:38 [http-nio-8080-exec-6] TRACE o.s.b.w.s.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.core.ApplicationHttpRequest@e225b46f
+2023-03-22 17:05:38 [http-nio-8080-exec-6] TRACE o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/api/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2023-03-22 17:05:38 [http-nio-8080-exec-6] TRACE o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/api/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2023-03-22 17:05:38 [http-nio-8080-exec-6] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 2 matching mappings: [{ [/error]}, { [/error], produces [text/html]}]
+2023-03-22 17:05:38 [http-nio-8080-exec-6] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 2 matching mappings: [{ [/error]}, { [/error], produces [text/html]}]
+2023-03-22 17:05:38 [http-nio-8080-exec-6] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'basicErrorController'
+2023-03-22 17:05:38 [http-nio-8080-exec-6] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'basicErrorController'
+2023-03-22 17:05:38 [http-nio-8080-exec-6] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-03-22 17:05:38 [http-nio-8080-exec-6] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-03-22 17:05:38 [http-nio-8080-exec-6] TRACE o.s.web.method.HandlerMethod - Arguments: [org.apache.catalina.core.ApplicationHttpRequest@e225b46f]
+2023-03-22 17:05:38 [http-nio-8080-exec-6] TRACE o.s.web.method.HandlerMethod - Arguments: [org.apache.catalina.core.ApplicationHttpRequest@e225b46f]
+2023-03-22 17:05:38 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-22 17:05:38 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-22 17:05:38 [http-nio-8080-exec-6] TRACE o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Wed Mar 22 17:05:38 UTC 2023, status=404, error=Not Found, path=/api/vi/subscriptions/1}]
+2023-03-22 17:05:38 [http-nio-8080-exec-6] TRACE o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Wed Mar 22 17:05:38 UTC 2023, status=404, error=Not Found, path=/api/vi/subscriptions/1}]
+2023-03-22 17:05:38 [http-nio-8080-exec-6] TRACE o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Applying default cacheSeconds=-1
+2023-03-22 17:05:38 [http-nio-8080-exec-6] TRACE o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Applying default cacheSeconds=-1
+2023-03-22 17:05:38 [http-nio-8080-exec-6] TRACE o.s.web.servlet.DispatcherServlet - No view rendering, null ModelAndView returned.
+2023-03-22 17:05:38 [http-nio-8080-exec-6] TRACE o.s.web.servlet.DispatcherServlet - No view rendering, null ModelAndView returned.
+2023-03-22 17:05:38 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404, headers={masked}
+2023-03-22 17:05:38 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404, headers={masked}
+2023-03-22 17:05:38 [http-nio-8080-exec-6] TRACE o.s.b.w.s.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.core.ApplicationHttpRequest@e225b46f
+2023-03-22 17:05:38 [http-nio-8080-exec-6] TRACE o.s.b.w.s.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.core.ApplicationHttpRequest@e225b46f
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 type=AVC msg=audit(1672935698.631:157305): avc:  denied  { read } for  pid=2393678 comm="(artup.sh)" name="tomcat-home" dev="dm-0" ino=944892 scontext=system_u:system_r:init_t:s0 tcontext=unconfined_u:object_r:default_t:s0 tclass=lnk_file permissive=0
 type=SYSCALL msg=audit(1672935698.631:157305): arch=c000003e syscall=59 success=no exit=-13 a0=5645fb354920 a1=5645fb3f93b0 a2=5645fb3da9f0 a3=1 items=0 ppid=1 pid=2393678 auid=4294967295 uid=50018 gid=50018 euid=50018 suid=50018 fsuid=50018 egid=50018 sgid=50018 fsgid=50018 tty=(none) ses=4294967295 comm="(artup.sh)" exe="/usr/lib/systemd/systemd" subj=system_u:system_r:init_t:s0 key=(null)^]ARCH=x86_64 SYSCALL=execve AUID="unset" UID="CAR-CE" GID="CAR-CE" EUID="CAR-CE" SUID="CAR-CE" FSUID="CAR-CE" EGID="CAR-CE" SGID="CAR-CE" FSGID="CAR-CE"
 type=PROCTITLE msg=audit(1672935698.631:157305): proctitle="(artup.sh)"
