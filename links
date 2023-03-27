@@ -1,5 +1,9 @@
 https://docs.gitlab.com/ee/ci/jobs/
 
+mvn ${MVN_SETTINGS} build-helper:parse-version versions:set \
+                                    -DnewVersion='\${parsedVersion.majorVersion}.\${parsedVersion.minorVersion}.\${parsedVersion.incrementalVersion}' \
+                                     versions:commit 
+
 
 https://onecop-sandbox-api-assurance.dev.echonet/ifas/api/vi/subscriptions/1 --header 'transactionID: 123' --header 'brokerId: 123' -vvv
 
