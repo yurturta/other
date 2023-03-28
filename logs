@@ -1,5 +1,40 @@
 https://www.jenkins.io/doc/pipeline/steps/pipeline-utility-steps/#readmavenpom-read-a-maven-project-file
 
+pipeline {
+    agent any
+
+    environment {
+        VERSION = "1.2.3"
+    }
+
+    stages {
+        stage('Increase Patch Version') {
+            steps {
+                script {
+                    // Write the Python script to a file
+                    writeFile file: 'increase_version.py', text: '''
+import os
+
+version = os.environ["VERSION"]
+
+major, minor, patch = version.split(".")
+patch = int(patch) + 1
+new_version = f"{major}.{minor}.{patch}"
+
+print(new_version)
+'''
+                    // Run the Python script
+                    def new_version = sh(script: "python increase_version.py", returnStdout: true).trim()
+                    
+                    echo "Current version: ${env.VERSION}"
+                    echo "New version: ${new_version}"
+                }
+            }
+        }
+    }
+}
+
+
                     // Write the Python script to a file
                     writeFile file: 'increase_version.py', text: '''
 import sys
