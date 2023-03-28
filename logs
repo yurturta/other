@@ -1,3 +1,43 @@
+https://www.jenkins.io/doc/pipeline/steps/pipeline-utility-steps/#readmavenpom-read-a-maven-project-file
+
+pipeline {
+    agent any
+
+    stages {
+        stage('Get Maven Properties') {
+            steps {
+                script {
+                    def submodules = ['module1', 'module2', 'module3']
+                    submodules.each { submodule ->
+                        def result = sh(script: '''
+                            groupId=$(mvn help:evaluate -f ''' + submodule + '''/pom.xml -Dexpression=project.groupId -q -DforceStdout)
+                            artifactId=$(mvn help:evaluate -f ''' + submodule + '''/pom.xml -Dexpression=project.artifactId -q -DforceStdout)
+                            version=$(mvn help:evaluate -f ''' + submodule + '''/pom.xml -Dexpression=project.version -q -DforceStdout)
+
+                            # If version is empty, use the parent version
+                            if [ -z "$version" ]; then
+                                version=$(mvn help:evaluate -f ''' + submodule + '''/pom.xml -Dexpression=project.parent.version -q -DforceStdout)
+                            fi
+
+                            echo "GroupId: $groupId"
+                            echo "ArtifactId: $artifactId"
+                            echo "Version: $version"
+                        ''', returnStdout: true).trim()
+
+                        echo "Maven Properties for submodule ${submodule}: \n${result}\n"
+                    }
+                }
+            }
+        }
+    }
+}
+In this pipeline, we first try to retrieve the version from the submodule's pom.xml. If the version is empty, we use the parent version by evaluating the project.parent.version expression.
+
+
+
+
+
+
 
 2023-03-22 17:03:54 [http-nio-8080-exec-4] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'v1ApiController'
 2023-03-22 17:03:54 [http-nio-8080-exec-4] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'v1ApiController'
