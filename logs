@@ -1,5 +1,23 @@
 https://www.jenkins.io/doc/pipeline/steps/pipeline-utility-steps/#readmavenpom-read-a-maven-project-file
 
+                    // Write the Python script to a file
+                    writeFile file: 'increase_version.py', text: '''
+import sys
+
+version = sys.argv[1]
+
+major, minor, patch = version.split(".")
+patch = int(patch) + 1
+new_version = f"{major}.{minor}.{patch}"
+
+print(new_version)
+'''
+                    // Run the Python script with the version as an argument
+                    def new_version = sh(script: "python increase_version.py ${version}", returnStdout: true).trim()
+                    
+                    echo "Current version: ${version}"
+                    echo "New version: ${new_version}"
+
 pipeline {
     agent any
 
